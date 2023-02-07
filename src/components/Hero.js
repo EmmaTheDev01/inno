@@ -8,7 +8,7 @@ class Hero extends Component{
             <div className="hero">
                 <div className="left">
                     <h1 className="hero-header">Start Your virtual tour with us</h1>
-                    <p className="hero-text">walk through multiple doors on your device.
+                    <p className="hero-text">Walk through multiple doors on your device.
                     Enjoy virtual reality experience in Rwanda.</p>
                     <button className="btn-learnmore">Learn More</button>
                 </div>
