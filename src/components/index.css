@@ -1,0 +1,436 @@
+/* ****************************
+        Styling the Hero 
+ ******************************/
+.homepage-content {
+  width: 100%;
+  position: relative;
+  top: 0%;
+}
+.hero {
+  margin: 0;
+  padding: 0;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.left {
+  width: 40%;
+}
+.hero-header {
+  font-size: 8ch;
+  font-weight: 900;
+  color: rgb(31, 31, 31);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.hero-text {
+  font-size: 2ch;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: rgb(125, 124, 124);
+}
+.btn-learnmore {
+  margin-top: 4rem;
+  padding: 1rem;
+  width: 9rem;
+  background-color: rgb(3, 3, 86);
+  color: white;
+  border: none;
+  font-size: 2ch;
+  width: 9rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px 2px grey;
+}
+.btn-learnmore:hover{
+  background-color: white;
+  color: rgb(3, 3, 86);
+  border: 2px solid rgb(3, 3, 86);
+}
+.right {
+  position: relative;
+  padding: 2rem;
+  float: right;
+}
+.hero-image {
+  position: absolute;
+  left: -190px;
+  top: 40px;
+}
+.circle {
+  z-index: -2;
+  padding: 1.5rem;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(3, 3, 86);
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px 6px grey;
+}
+.big-text {
+    position: absolute;
+  font-size: 8.4ch;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: white;
+}
+/*****************************************
+            Styling About us 
+******************************************/
+.about-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.grid-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+.text-about {
+  width: 50%;
+  padding: 1rem;
+}
+.text-about .about-heading {
+  font-size: 6ch;
+  color: rgb(34, 33, 33);
+  padding: 1rem;
+}
+.text-about .paragraph {
+  font-size: 2ch;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(125, 124, 124);
+  padding: 1rem;
+}
+.image-about {
+  height: 630px;
+  object-fit: cover;
+  overflow: hidden;
+  padding: 1rem;
+  width: 50%;
+}
+.about-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+/*******************************************
+        Styling services section 
+********************************************/
+.services-section {
+  width: 80%;
+  padding: 2rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.card {
+  margin: 1rem;
+  box-sizing: border-box;
+  width: 280px;
+  overflow: hidden;
+}
+.card .image {
+  padding: 1rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.title-service {
+  padding: 1rem;
+  font-size: 3ch;
+  font-weight: 700;
+  color: rgb(34, 33, 33);
+}
+.card .service-description {
+  padding: 1rem;
+  color: rgb(125, 124, 124);
+}
+.card .service-link {
+  padding: 1rem;
+  color: rgb(3, 3, 86);
+  font-weight: 600;
+}
+/*****************************************
+        Styling Our Work section  
+******************************************/
+.portifolio-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #eeeeee;
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+}
+.work-container {
+  width: 80%;
+  padding: 1rem;
+}
+.portifolio-cards {
+  padding: 3rem;
+}
+.work-heading{
+    font-size: 4ch;
+    color: rgb(34, 33, 33);
+    padding: 2rem;
+}
+.portifolio-card {
+  border: 1px solid rgb(222, 222, 222);
+  background-color: #fff;
+  border-radius: 1rem;
+  margin: 1rem;
+  overflow: hidden;
+  text-align: start;
+}
+.portifolio-card:hover .btn-overlay {
+  display: block;
+}
+.portifolio-card .work-image {
+  padding: 1rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.portifolio-card .workcard-image {
+  height: 400px;
+  object-fit: cover;
+}
+.portifolio-card .title-work {
+  padding: 1rem;
+  font-size: 3ch;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(3, 3, 86);
+}
+.portifolio-card .work-description {
+  padding: 1rem;
+  color: rgb(125, 124, 124);
+}
+.btn-overlay {
+  display: none;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1.6rem;
+  font-size: 2ch;
+  font-weight: 800;
+  color: rgb(3, 3, 86);
+  border: 2px solid rgb(3, 3, 86);
+}
+.btn-overlay:hover {
+  background-color: rgb(3, 3, 86);
+  color: white;
+}
+/*****************************************
+        Styling Clients section 
+******************************************/
+.clients-section{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    text-align: center;
+}
+.clients-heading{
+    padding: 2rem;
+    font-size: 4ch;
+    color: white;
+    font-weight: 900;
+}
+/*******************************************
+        Styling Contact us section 
+********************************************/
+.contact-section{
+    width: 100%;
+    background-color: #eeeeee;
+    text-align: center;
+}
+.contactsection-title{
+    font-size: 4ch;
+    padding: 2rem;
+    font-weight: 900;
+    color: rgb(34, 33, 33);
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-left
+{   
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    padding: 1rem;
+    width: 40%;
+}
+.title-detail{
+    width: 100%;
+    font-size: 3ch;
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    display: block;
+}
+.contact-detail{
+    color: rgb(125, 124, 124);
+    display: block;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.contact-right{
+    width: 60%;
+    margin: 1rem;
+}
+.input::placeholder{
+    font-size: 2ch;
+    padding: 1rem;
+}
+.input{
+    padding: 1rem;
+    margin: 0.7rem;
+    border: 1px solid rgb(228, 228, 228);
+    box-shadow: 1px 0px 4px 0px rgb(218, 217, 217);
+    border-radius: 0.4rem;
+    outline:none;
+}
+.input:focus{
+    outline: 1px solid rgb(3, 3, 86);
+}
+.name{
+    width: 231px;
+}
+.email{
+    width: 231px;
+    margin: 1rem;
+}
+.phone{
+    width: 500px;
+}
+.message::placeholder{
+    font-size: 2ch;
+}
+.message{
+    width: 500px;
+    height: 12rem;
+}
+.contact-btn{
+    border: none;
+    padding: 1rem;
+    width: 10rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(3, 3, 86);
+    color: #fff;
+    font-size: 2ch;
+    text-align: center;
+    border-radius: 1.4rem;
+    cursor: pointer;
+}
+.contact-btn:hover{
+  background-color: #fff;
+  color: rgb(3, 3, 86);
+  border: 2px solid rgb(3, 3, 86);
+}
+
+/*****************************************
+            Styling footer 
+******************************************/
+
+.footer {
+  bottom: 0%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+.footer-container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer-about{
+    padding: 1rem;
+    width: 500px;
+}
+.footer-menu{
+    padding: 1rem;
+    width: 200px;
+}
+.resources{
+    padding: 1rem;
+    width: 200px;
+}
+.app{
+    padding: 1rem;
+    width: 200px;
+}
+.footer-heading{
+    padding: 1rem;
+    color: rgb(34, 33, 33);
+    font-size: 2.5ch;
+}
+.footer-text{
+    padding: 1rem;
+    list-style-type: none;
+    color: rgb(125, 124, 124);
+}
+.footer-menu{
+    padding: 0.5rem;
+}
+.icons{
+    padding: 1rem;
+}
+.icon{
+    padding: 0.2rem;
+    margin: 0.2rem;
+    font-size: 3ch;
+    color: rgb(125, 124, 124);
+    cursor: pointer;
+}
+.ig:hover{
+    color: rgb(250, 50, 97);
+}
+.in:hover{
+    color: rgb(12, 88, 186);
+}
+.tw:hover{
+    color: rgb(72, 185, 255);
+}
+.fa:hover{
+    color: rgb(4, 49, 89);
+}
+.copyright-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    width: 80%;
+}
+.copyright{
+    color: rgb(125, 124, 124);
+}
