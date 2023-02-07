@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/inno/static/css/main.cfa7c9b7.css",
+    "main.js": "/inno/static/js/main.2570a26b.js",
+    "static/media/about.jpg": "/inno/static/media/about.02299cc7d719b9b2f97d.jpg",
+    "static/media/VR.png": "/inno/static/media/VR.7b176e3e8057b8a17ccc.png",
+    "index.html": "/inno/index.html",
+    "main.cfa7c9b7.css.map": "/inno/static/css/main.cfa7c9b7.css.map",
+    "main.2570a26b.js.map": "/inno/static/js/main.2570a26b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfa7c9b7.css",
+    "static/js/main.2570a26b.js"
+  ]
+}
