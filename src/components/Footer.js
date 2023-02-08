@@ -39,12 +39,6 @@ function Footer() {
             <li className="footer-menu">RN 5 Rd, Kigali</li>
           </ul>
         </div>
-        <div className="app">
-          <h2 className="footer-heading">App</h2>
-          <p className="footer-text">
-          Our app
-          </p>
-        </div>
       </div>
       <div className="copyright-container">
           <p className="copyright">&copy;2023 <b>Innorios.</b> All rights Reserved</p>

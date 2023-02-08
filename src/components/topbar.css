@@ -18,7 +18,7 @@
 }
 .menu{
     float: left;
-    margin-top: -1rem;
+    padding: 1rem;
     display: block;
 }
 .nav-menu{
