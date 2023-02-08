@@ -277,7 +277,7 @@
 }
 .contact-left
 {   
-    padding: 1rem;
+    padding: 3rem;
     display: flex;
     flex-wrap: wrap;
     text-align: start;
@@ -321,10 +321,10 @@
     outline: 1px solid rgb(3, 3, 86);
 }
 .name{
-    width: 231px;
+    width: 231.5px;
 }
 .email{
-    width: 231px;
+    width: 231.5px;
     margin: 1rem;
 }
 .phone{
