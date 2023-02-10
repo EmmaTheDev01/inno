@@ -282,7 +282,7 @@
     flex-wrap: wrap;
     text-align: start;
     padding: 1rem;
-    width: 40%;
+    width: 30%;
 }
 .title-detail{
     width: 100%;
@@ -302,7 +302,7 @@
     margin: 0%;
 }
 .contact-right{
-    width: 60%;
+    width: 40%;
     margin: 1rem;
 }
 .input::placeholder{
